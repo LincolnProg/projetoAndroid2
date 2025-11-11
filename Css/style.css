@@ -1,0 +1,38 @@
+@charset "UTF-8";
+@import url(./nav.css);
+@import url(./main.css);
+@import url(./footer.css);
+
+/* Importando Fontes */
+
+@font-face {
+    font-family: 'BebasNeue';
+    src: url(../fontes/BebasNeue-Regular.otf);
+}
+
+@font-face {
+    font-family: 'idroid';
+    src: url(../fontes/idroid.otf);
+}
+
+
+/* Declaração de Variáveis */
+
+:root {
+    --color01: #E5F9EE;
+    --color02: #83E1AD;
+    --color03: #1F7F4A; 
+    --color04: #136136; 
+    --color05: #063D1E; 
+    --color06: #06391C; 
+
+    --fonteTitulo: 'BebasNeue'; 
+    --fonteAndroid: "idroid"; 
+}
+
+/* Declarações globais */
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
