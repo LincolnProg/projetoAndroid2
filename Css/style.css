@@ -2,6 +2,7 @@
 @import url(./nav.css);
 @import url(./main.css);
 @import url(./footer.css);
+@import url(./section.css);
 
 /* Importando Fontes */
 
@@ -36,3 +37,11 @@
     padding: 0px;
     margin: 0px;
 }
+
+
+body {
+    background-color:  #EBE5C5; 
+}
+
+
+

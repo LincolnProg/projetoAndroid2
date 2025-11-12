@@ -1,0 +1,44 @@
+@import url(./style.css);
+
+section {
+
+    background-color: var(--color02);
+    margin: 5%;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section > h3 {
+    background-color: var(--color06);
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+section > p {
+    text-indent:  30px;
+    margin: 20px;
+    padding-bottom: 30px;
+    
+}
+
+.principalList {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+section > div {
+    margin: 40px;
+}
+
+
+section > span {
+    font-weight: bold;
+    color: var(--color06); 
+}
+
+
+#nome {
+    background-color: var(--color02);
+}

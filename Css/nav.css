@@ -37,9 +37,10 @@ nav>p {
 
 a:hover {
     background-color: #2CA262;
-    padding: 5px;
+    padding: 10px;
     transition:  0.2s;
     border-radius: 5px;
+    color: #06391C;
 }
 
 

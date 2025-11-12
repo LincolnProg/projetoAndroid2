@@ -1,1 +1,78 @@
 @import url(./style.css);
+
+
+main {
+    background-color: #fff;
+    margin: 0% 22% 3% 18%; 
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+main > h2 {
+    font-family: var(--fonteAndroid);
+    color: var(--color04);
+    font-size: 28px;
+    padding: 15px 0px 10px 0px;
+    text-indent: 15px;
+}
+
+main > p {
+    font: 100 16px arial;
+    text-indent: 50px;
+    margin-left: 20px;
+    letter-spacing: 0.5px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+main > h3 {
+    text-indent: 20px;
+    font-family: var(--fonteAndroid);
+    font-size: 20px;
+    color: var(--color04    );
+    background-image: linear-gradient(to right, #83E1AD, #fff);
+    margin: 12px;
+}
+
+
+main > img {
+    width: 100%;
+}
+
+
+main span {
+    font-weight: bold;
+    color: var(--color06); 
+}
+
+#nome {
+    background-color: var(--color02);
+    
+}
+
+#irina {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color06);
+    height: 550px;
+}
+
+iframe {
+   width: 700px;
+   height: 500px;
+}
+
+.bug {
+    background-color: #83E1AD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+}
